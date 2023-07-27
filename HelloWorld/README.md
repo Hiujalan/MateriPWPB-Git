@@ -14,3 +14,17 @@
 13.  jika berhasil maka akan muncul aplikasi dengan nama Alan Aplication 1
 14.  setelah itu, buka aplikasi tersebut dan text hallo world telah muncul.
 
+
+# Penjelasan
+1. Fungsi dari Ekstrak Resource String adalah untuk memudahkan pembaruan konten, menghindari duplikasi kode atau string, dan memudahkan pembacaan kode
+2. Fungsi dari debugging usb adalah untuk berinteraksi antara Handphone dan PC dengan perantara kabel USB
+
+
+# Penjelasan kode - kode 
+1. <pre><code>package com.hiujalan.helloworld</code></pre>
+     berfungsi untuk mendeklarasikan sebuah paket yang didalamnya terdapat kelas kelas
+2. <pre><code>import androidx.appcompat.app.AppCompatActivity;</code></pre> <pre><code>import android.os.Bundle;</code></pre> 
+     digunakan untuk mengimpor kelas AppCompatActivity dan kelas bundle
+3. <pre><code>setContentView(R.layout.activity_main);</code></pre>
+     berfungsi untuk menghubungkan layout atau `activity_main.xml` dengan `MainActivity.java`
+4.  <pre><code>@override</code></pre> menandakan bahwa metode di bawahnya telah di override
