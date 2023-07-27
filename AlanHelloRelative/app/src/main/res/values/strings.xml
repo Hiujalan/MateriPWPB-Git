@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hello Relative</string>
+    <string name="Kalimat">0</string>
+    <string name="btn_toast">Toast</string>
+    <string name="btn_count">Count</string>
+    <string name="message_toast">Hello Toast</string>
+</resources>
