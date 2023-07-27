@@ -12,4 +12,5 @@
 11.  cari handphone kita yang telah kita sambungkan kabel USBnya, jika terdapat warna hijau maka handphone sudah menjadi harddevice dan siap digunakan
 12.  setelah itu klik run pada bagian atas kanan android studio, lalu cek handphone apakah sudah muncul aplikasinya
 13.  jika berhasil maka akan muncul aplikasi dengan nama Alan Aplication 1
-14.  setelah itu, buka aplikasi tersebut dan text hallo world telah muncul
+14.  setelah itu, buka aplikasi tersebut dan text hallo world telah muncul.
+
