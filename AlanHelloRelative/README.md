@@ -10,4 +10,8 @@
 
 # Cara mengatasi Permasalahan Dependency 'androidx.appcompat:appcompat-resources:1.6.1' requires libraries and applications that depend on it to compile against version 33 or later of the Android APIs.'
 1. Pertama cari di menu file yang terletak pada kiri atas
-2. Cari Project Structure atau tekan Ctrl
+2. Cari Project Structure atau tekan Ctrl + Alt + Shift + S
+3. Lalu masuk ke menu Modules
+4. Cari Compile Sdk Version jika versinya di bawah 33 maka ubah ke versi 33 atau lebih tinggi
+5. Jika sudah Apply agar versinya di update
+6. Lalu klik OK maka akan menyelesaikan pengaturan yang telah di atur
