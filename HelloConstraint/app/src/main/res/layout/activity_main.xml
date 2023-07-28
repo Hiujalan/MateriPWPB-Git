@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--   Constraint di gunakan agar apliksai responsive yaitu tampilan landscape dan vertikal menyesuaikan layout nya   -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
         android:layout_width="395dp"
