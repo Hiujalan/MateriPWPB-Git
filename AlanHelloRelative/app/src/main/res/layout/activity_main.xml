@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--  Relative layout digunakan agar elemen dalam layout landscape dan layout vertikal posisinya tetap sama    -->
     <RelativeLayout
         android:layout_width="250dp"
         android:layout_height="364dp"
