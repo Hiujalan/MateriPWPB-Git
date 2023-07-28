@@ -1,5 +1,5 @@
 # Penjelasan
-   Project ini di buat untuk mengetest Handphone apakah bisa untuk di jadikan Hard Device, Project ini dibuat pada hari Senin tanggal 25 Juli 2023 
+   Project ini di buat untuk mengetest Handphone apakah bisa untuk di jadikan Hard Device, Project ini dibuat pada hari Selasa tanggal 25 Juli 2023 
 1. Fungsi dari Ekstrak Resource String adalah untuk memudahkan pembaruan konten, menghindari duplikasi kode atau string, dan memudahkan pembacaan kode
 2. Fungsi dari debugging usb adalah untuk berinteraksi antara Handphone dan PC dengan perantara kabel USB
 
