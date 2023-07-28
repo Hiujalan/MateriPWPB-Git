@@ -1,5 +1,5 @@
 # Penjelasan
-1. Menggunakan relative layout dapat meningkatkan pengalaman pengguna karena dapat berubah landscape atau vertikal tapi dalam posisi tetap atau tidak berubah ubah
+   Menggunakan relative layout dapat meningkatkan pengalaman pengguna karena dapat berubah landscape atau vertikal tapi dalam posisi tetap atau tidak berubah ubah
    
 # Penjelasan kode kode
 1. `android:layout_below="@+id/btn_toast"` berfungsi untuk menempatkan di bawah yang memiliki id btn_toast
