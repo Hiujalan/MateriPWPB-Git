@@ -26,4 +26,4 @@
      digunakan untuk mengimpor kelas AppCompatActivity dan kelas bundle
 3. <pre><code>setContentView(R.layout.activity_main);</code></pre>
      berfungsi untuk menghubungkan layout atau `activity_main.xml` dengan `MainActivity.java`
-4.  <pre><code>@override</code></pre> menandakan bahwa metode di bawahnya telah di override
+4.  <pre><code>@override</code></pre> menandakan bahwa metode di bawahnya telah di override. Override merupakan fungsi dan juga method dari parent class yang telah di tulis ulang
