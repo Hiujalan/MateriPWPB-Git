@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Untuk menampilkan angka yang telah di tambah
-    public void countUp(View view) {
-        mCount++;
+    public void countUp(View view) { 
         if (mCount <= 10) {
+             mCount++;
             if (mShowCount != null) {
                 mShowCount.setText(Integer.toString(mCount));
             }
