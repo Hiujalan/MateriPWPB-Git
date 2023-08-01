@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Alan TwoActivities</string>
+    <string name="btn_send">Send</string>
+    <string name="activity2_name">Second Activity</string>
+    <string name="message_received">Message Received</string>
+    <string name="edit_text_main">Enter Your Message Here</string>
+    <string name="btn_reply">Reply</string>
+    <string name="text_second">Enter Your Reply</string>
+    <string name="text_header_receive">Received Message</string>
+    <string name="text_header_reply">Reply Message</string>
+    <string name="text_reply">Message Reply</string>
+</resources>
