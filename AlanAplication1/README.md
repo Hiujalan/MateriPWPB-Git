@@ -1,5 +1,5 @@
 # Penjelasan tentang Hello Toast
-  Project ini di buat pada hari rabu tanggal 26 Juli 2023, Project ini dibuat untuk menampilkan popup message Hello Toast dan untuk menambahkan angka
+  Project ini di buat pada hari rabu tanggal 26 Juli 2023, Project ini dibuat untuk menampilkan popup message Hello Toast dan untuk menambahkan angka jika menekan tombol
 
 # penjelasan kode kode
 1. `Context context = getApplicationContext();` berfungsi untuk mendapatkan informasi aplikasi saat ini ,lalu di masukkan di variabel context
