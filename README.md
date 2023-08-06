@@ -7,4 +7,4 @@ Daftar Isi
 4. [Hello Constraint](HelloConstraint) Membuat Apliksai responsive saat tampilan landscape
 5. [Hello Sccrolling](AlanScrolling2) Membuat Aplikasi dengan Scroll View
 6. [Two Activities](AlanTwoActivities) Membuat Aplikasi dengan 2 Aktivitas serta mengirimkan data antar Aktivitas
-7. [Aplikasi Penghitung Bangun Ruang])(AplikasiBangunRuang) Membuat Aplikasi yang menghitung Luas dan Volume Tabung
+7. [Aplikasi Penghitung Bangun Ruang](AplikasiBangunRuang) Membuat Aplikasi yang menghitung Luas dan Volume Tabung
