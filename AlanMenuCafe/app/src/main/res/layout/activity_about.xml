@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="464dp"
+        android:layout_height="715dp"
+        android:layout_weight="-1"
+        android:background="#EAEAEA"
+        tools:layout_editor_absoluteX="-45dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="439dp"
+        android:layout_height="307dp"
+        android:background="#03A9F4"
+        tools:layout_editor_absoluteX="-31dp"
+        tools:layout_editor_absoluteY="-11dp" />
+
+    <ImageView
+        android:id="@+id/about_image"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Alan Herva Ikhsan Saputra"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_image" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="329dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="268dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_class" />
+
+        <TextView
+            android:id="@+id/about_data_kelas"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            android:text="XII RPL A" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="55dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="70dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_school" />
+
+        <TextView
+            android:id="@+id/about_data_jurusan"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:text="Rekayasa Perangkat Lunak" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="110dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="125dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_home" />
+
+        <TextView
+            android:id="@+id/about_data_jurusan2"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="130dp"
+            android:layout_weight="1"
+            android:text="Jalan Ki Ageng Mirah NO 58" />
+
+        <TextView
+            android:id="@+id/about_data_jurusan3"
+            android:layout_width="207dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="185dp"
+            android:layout_weight="1"
+            android:text="089520040070" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="165dp">
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="180dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/icon_telp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
