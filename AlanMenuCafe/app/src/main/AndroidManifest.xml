@@ -37,7 +37,7 @@
         <activity
             android:name=".DetailMenu"
             android:exported="false"
-            android:label="Detail Menu"
+            android:label="Cara Membuat"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -54,5 +54,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recycleView = findViewById(R.id.recycle_view);
-        adapter = new MenuCafeAdapter();
+        adapter = new MenuCafeAdapter(getApplicationContext());
 //        layoutManager = new LinearLayoutManager(this);
 
 //        membuat item menjadi 2

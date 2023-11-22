@@ -13,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.squareup.picasso.Picasso;
+
 public class DetailMenu extends AppCompatActivity {
     private TextView menuNama, menuHarga, menuDetail,menuRating;
     private ImageView menuImage;
@@ -23,35 +25,37 @@ public class DetailMenu extends AppCompatActivity {
         setContentView(R.layout.activity_detail_menu);
 
         menuNama = (TextView) findViewById(R.id.menu_cafe_nama);
-        menuHarga = (TextView) findViewById(R.id.menu_cafe_harga);
+        menuHarga = (TextView) findViewById(R.id.menu_cafe_category);
         menuImage = (ImageView) findViewById(R.id.menu_image);
         menuDetail = (TextView) findViewById(R.id.menu_cafe_detail);
-        menuRating = (TextView) findViewById(R.id.menu_cafe_rating_data);
+//        menuRating = (TextView) findViewById(R.id.menu_cafe_rating_data);
 
         intent = getIntent();
         String nama = intent.getStringExtra("nama");
         menuNama.setText(nama);
 
-        String harga = intent.getStringExtra("harga");
-        menuHarga.setText("Rp " + harga);
+        String category = intent.getStringExtra("category");
+        menuHarga.setText(category);
 
-        int image = intent.getIntExtra("img",0);
-        menuImage.setImageResource(image);
+//        int image = intent.getIntExtra("img",0);
+//        menuImage.setImageResource(image);
+
+        Picasso.get().load(intent.getStringExtra("img")).into(menuImage);
 
         String detail = intent.getStringExtra("detail");
         menuDetail.setText(detail);
 
-        String rating = intent.getStringExtra("rating");
-        menuRating.setText(rating);
+//        String rating = intent.getStringExtra("rating");
+//        menuRating.setText(rating);
     }
 
-    public void launchOrderActivity(View view) {
-        Intent intentOrder = new Intent(this,OrderActivity.class);
-        intentOrder.putExtra("nama", intent.getStringExtra("nama"));
-        intentOrder.putExtra("harga", intent.getStringExtra("harga"));
-        intentOrder.putExtra("imgOrder", intent.getIntExtra("img",0));
-        startActivity(intentOrder);
-    }
+//    public void launchOrderActivity(View view) {
+//        Intent intentOrder = new Intent(this,OrderActivity.class);
+//        intentOrder.putExtra("nama", intent.getStringExtra("nama"));
+//        intentOrder.putExtra("harga", intent.getStringExtra("harga"));
+//        intentOrder.putExtra("imgOrder", intent.getIntExtra("img",0));
+//        startActivity(intentOrder);
+//    }
 
     @Override
     public boolean onCreateOptionsMenu (Menu menu){

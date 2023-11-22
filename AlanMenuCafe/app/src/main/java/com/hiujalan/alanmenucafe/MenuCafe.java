@@ -1,18 +1,22 @@
 package com.hiujalan.alanmenucafe;
 
 public class MenuCafe {
-    private String nama;
-    private String detail;
-    private int harga;
-    private int img;
-    private int rating;
+    private String nama,category,area,detail,img;
 
-    public MenuCafe(String nama, int harga,int img,int rating,String detail) {
+//    public MenuCafe(String nama, String category,int img,String area,String detail) {
+//        this.nama = nama;
+//        this.detail = detail;
+//        this.category = category;
+//        this.img = img;
+//        this.area = area;
+//    }
+
+    public MenuCafe(String nama, String category,String img,String area, String detail) {
         this.nama = nama;
-        this.detail = detail;
-        this.harga = harga;
+        this.category = category;
         this.img = img;
-        this.rating = rating;
+        this.area = area;
+        this.detail = detail;
     }
 
     public String getNama() {
@@ -23,16 +27,16 @@ public class MenuCafe {
         return detail;
     }
 
-    public int getHarga() {
-        return harga;
+    public String getCategory() {
+        return category;
     }
 
-    public int getImg() {
+    public String getImg() {
         return img;
     }
 
-    public int getRating() {
-        return rating;
+    public String getArea() {
+        return area;
     }
 
 }
