@@ -14,4 +14,7 @@ Daftar Isi
 8. [Pokedex](AlanProjectMinggu3) Membuat Aplikasi untuk menampilkan data array dengan recycle view dan detail data tersebut
 9. [Menu Cafe](AlanMenuCafe) Membuat Aplikasi untuk menampilkan menu menu cafe dengan recycle view dan detail dari menu cafe tersebut
 # 30 Oktober - 3 November
-10. []
+10. [Saved Instance](AlanVisible) Membuat Aplikasi agar saat handphone di rotasi data tidak hilang serta mempelajari siklus hidup dari Aplikasi android
+11. [API Resep](AlanMenuCafe) Membuat Aplikasi untuk menampilkan data resep resep masakan dari API TheMealDB, Aplikasi ini merupakan terusan dari Aplikasi [Menu Cafe](AlanMenuCafe)
+# 20-24 November
+ Meneruskan Project [API Resep](AlanMenuCafe) untuk menampilkan data resep resep masakan dari API TheMealDB
