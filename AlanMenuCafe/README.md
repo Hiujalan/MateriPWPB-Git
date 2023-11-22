@@ -1,3 +1,3 @@
 # Project Menu cafe
 
-Project ini berfokus untuk menampilkan data menu cafe yang berbentuk array , dimana terdapat dua tampilan dimana tampilan utama hanya terdapat dua data yang di tampikan sedangkan di halaman detail menampikan semua data dengan card view
+Project ini berfokus untuk menampilkan data menu cafe yang berbentuk array , dimana terdapat dua tampilan dimana tampilan utama hanya terdapat tiga data yang di tampilkan dengan card view sedangkan di halaman detail menampikan semua data tersebut, di minggu pertama untuk membuat aplikasi ini kita menggunakan data data yang di isi secara manual dengan bantuan arraylist, sedangkan pada minggu kedua untuk membuat aplikasi ini kita menganti data statis tersebut dengan data dari API menggunakan bantuan dari library [volley](https://developer.android.com/training/volley?hl=id) dan juga bantuan library [Picasso](https://square.github.io/picasso/) untuk menampilkan gambar dari url
