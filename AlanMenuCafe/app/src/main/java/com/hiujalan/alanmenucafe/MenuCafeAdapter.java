@@ -35,11 +35,6 @@ public class MenuCafeAdapter extends RecyclerView.Adapter<MenuCafeAdapter.MenuCa
         private TextView menuNama,menuCategory;
         private ImageView menuImage;
 
-//        public static final String EXTRA_NAMA = "com.hiujalan.alanmenucafe.extra.NAMA";
-//        public static final String EXTRA_DETAIL = "com.hiujalan.alanmenucafe.extra.DETAIL";
-//        public static final String EXTRA_HARGA = "com.hiujalan.alanmenucafe.extra.HARGA";
-//        public static final String EXTRA_IMG = "com.hiujalan.alanmenucafe.extra.IMG";
-
         public MenuCafeViewHolder(@NonNull View itemView) {
             super(itemView);
 
@@ -47,7 +42,6 @@ public class MenuCafeAdapter extends RecyclerView.Adapter<MenuCafeAdapter.MenuCa
             menuNama = itemView.findViewById(R.id.menu_cafe_nama);
             menuCategory = itemView.findViewById(R.id.menu_cafe_category);
             menuImage = itemView.findViewById(R.id.menu_image);
-//            menuRating = itemView.findViewById(R.id.menu_cafe_rating);
 
             containerView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -78,7 +72,6 @@ public class MenuCafeAdapter extends RecyclerView.Adapter<MenuCafeAdapter.MenuCa
     public void onBindViewHolder(@NonNull MenuCafeAdapter.MenuCafeViewHolder holder, int position) {
         MenuCafe current = menus.get(position);
         holder.menuNama.setText(current.getNama());
-//        holder.menuImage.setImageResource(current.getImg());
         Picasso.get().load(current.getImg()).into(holder.menuImage);
         holder.menuCategory.setText(current.getCategory());
 
@@ -106,9 +99,8 @@ public class MenuCafeAdapter extends RecyclerView.Adapter<MenuCafeAdapter.MenuCa
                 try {
 
                     JSONArray results = response.getJSONArray("meals");
-                    JSONObject resultsData = results.getJSONObject(1);
 
-                    for (int i=0; i <= resultsData.length(); i++){
+                    for (int i=0; i <= results.length(); i++){
                         JSONObject result = results.getJSONObject(i);
                         menus.add(new MenuCafe(
                                 result.getString("strMeal"),
